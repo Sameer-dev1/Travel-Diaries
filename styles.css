@@ -1,0 +1,144 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.Brand{
+  font-family: 'Pacifico', cursive;
+  font-size: 5.8rem;
+  text-align: center;
+  color:#07031a;
+  margin-top: 5px;
+}
+#Caption{
+  font-family: 'Carter One', cursive;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.counter{
+  font-size:3rem;
+  font-family: 'Vidaloka',serif;
+  font-weight: 900;
+  color:coral;
+  text-align: center;
+}
+#counters{
+padding-top: 80px;
+padding-right: 100px;
+padding-left: 80px;
+margin-left:80px;
+margin-bottom: 60px;
+}
+.numbers{
+  font-size: 1rem;
+  font-family: 'Cantarell', sans-serif;
+  text-align: center;
+}
+.Upper-section{
+  width: 100%;
+color:#e8e4e1;
+font-family: 'Heebo',sans-serif;
+font-size: 1rem;
+background-color: black;
+}
+/*Upper Section Nav link*/
+.head{
+  color: #e8e4e1;
+  font-size: 0.8rem;
+}
+/*nav-item*/
+.nav-item{
+  font-family: 'Cantarell', sans-serif;
+}
+.Nav-link{
+  color: black;
+  font-size:0.9rem;
+  margin:18px 13px;
+}
+.Heading{
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+  padding-top: 90px;
+}
+.sub-heading{
+  text-align: center;
+  padding-top: 50px;
+  color:#f37121;
+  font-family: 'Kalam', cursive;
+}
+.card-text{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.Button{
+  border:none;
+  background-color:peru;
+  color: white;
+  width: 500px;
+  height:60px;
+  border-radius: 35px;
+  font-familY:'Serif';
+}
+.Read{
+  font-family: 'Heebo',sans-serif;
+  font-size: 0.9rem;
+  color: coral;
+}
+.card-title{
+  font-family: 'vidaloka',serif;
+}
+/*Parallax*/
+.parallax-window {
+  min-height: 450px;
+  background: transparent;
+}
+#Text-Suscribe{
+  border-radius:35px;
+  height: 60px;
+  width: 500px;
+  background-color:#eeeeee;
+  border: none;
+  color: coral;
+  font-family: 'Heebo',serif;
+}
+.icon{
+  margin: 40px 25px;
+  color: black;
+}
+.hicon{
+  color: #e8e4e1;
+  margin-left:15px;
+}
+#Footer{
+background-color:#e8e4e1;
+height: 80px;
+width: 100%;
+}
+.ficon{
+  margin: 0px 20px;
+  color:purple;
+}
+/*Banner*/
+.banner{
+  background-image: url(Bimages/1971537.jpg);
+}
+/*Hover Parameter*/
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.3s linear;
+}
+/*Hover Effect*/
+.nav-link:hover{
+color:orangered;
+}
+.inner:hover img {
+  transform: scale(1.2);
+}
+.Read:hover{
+text-decoration: none;
+color: orangered;
+}
+.Button:hover{
+  background-color: coral;
+}
